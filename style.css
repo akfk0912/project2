@@ -1,19 +1,88 @@
 body {
-  background: url('image/orientalhouse.jpg');
-  background-size: 100%;
-  background-repeat : no-repeat;
+  background: url('image/pencil.jpg');
+  background-size: cover;
+  background-position: center center;
+
 }
 
-h1 {
+.menu {	
+  background-color: PaleGreen; 
+  height:48px;
+  position: fixed; 
+  margin: 0% 50% 0% 50%;
+  top: 0; 
+  width:50%; 
+} 
+
+.menu a { 
+  display: block; 
+  text-align: center; 
+  align-content: right;
+  color: black; 
+  padding: 10px 20px;
+  font-family: 'Bai Jamjuree', sans-serif;
+  font-size: 30px;
+}
+
+.menu a:hover {
+    transform : scale(1.2);
+}
+
+.menu ul
+{
+  margin:0;
+  text-align:center;
+}
+
+.menu li {
+  display: inline-block;
+}
+
+.m_title {
   font-family: 'Dosis', sans-serif;
   color :white;
   text-align: center;
   font-size: 80px;
 }
 
-h2 {
+.title {
   font-family: 'Dosis', sans-serif;
-  color: white;
+  color: Crimson;
   text-align: center;
   font-size: 50px;
+}
+
+.center {
+	text-align: center;
+}
+
+
+ .block1 
+{
+  width: 90%;
+  margin: 20px 20px 20px 20px;
+  padding: 30px;
+  border: 10px solid pink; 
+  border-radius : 20px;
+  font-family: 'Kalam', cursive;
+  font-size: 20px;
+  text-align: center;
+}
+
+ .block2 
+{
+  width: 90%;
+  margin: 20px 20px 20px 20px;
+  padding: 20px;
+  border: 10px solid pink; 
+  font-family: 'Kalam', cursive;
+  font-size: 20px;
+  text-align: center;
+}
+
+.block2 li {
+  margin: 20px 20px 20px 20px;
+  font-family: 'Kalam', cursive;
+  font-size: 25px;
+  text-align: left;
 }
