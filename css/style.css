@@ -57,9 +57,9 @@ table {
   background-color: GreenYellow; 
   height:48px;
   position: fixed; 
-  margin: 0% 60% 0% 60%;
+  margin: 0% 0% 0% 0%;
   top: 0; 
-  width:40%; 
+  width:100%; 
 } 
 
 .menu a { 
@@ -100,12 +100,19 @@ table {
 }
 
 .center {
+  float: none;
 	text-align: center;
 }
 
+.block1 .img{
+  float: none;
+  width: 60%;
+  height: 60%;
+}
 
  .block1 
 {
+  float :none;
   width: 90%;
   margin: 20px 20px 20px 20px;
   padding: 30px;
@@ -154,6 +161,14 @@ table {
   border: 1px solid black; 
 }
 
+.lineh{
+  line-height: 150%;
+}
+
+.retitle{
+  font-size: 30px;
+  margin-top :40px;
+}
 .block5
 {
   width: 80%;
